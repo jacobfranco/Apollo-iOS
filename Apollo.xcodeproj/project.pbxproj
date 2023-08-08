@@ -8,12 +8,47 @@
 
 /* Begin PBXBuildFile section */
 		2D3B2A362A829E660026D4F9 /* ApolloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A352A829E660026D4F9 /* ApolloApp.swift */; };
-		2D3B2A382A829E660026D4F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A372A829E660026D4F9 /* ContentView.swift */; };
-		2D3B2A3A2A829E680026D4F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3B2A392A829E680026D4F9 /* Assets.xcassets */; };
 		2D3B2A3D2A829E680026D4F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3B2A3C2A829E680026D4F9 /* Preview Assets.xcassets */; };
 		2D3B2A472A829E690026D4F9 /* ApolloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A462A829E690026D4F9 /* ApolloTests.swift */; };
 		2D3B2A512A829E690026D4F9 /* ApolloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A502A829E690026D4F9 /* ApolloUITests.swift */; };
 		2D3B2A532A829E690026D4F9 /* ApolloUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A522A829E690026D4F9 /* ApolloUITestsLaunchTests.swift */; };
+		2D3B2A712A829F2C0026D4F9 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 2D3B2A602A829F250026D4F9 /* Fonts */; };
+		2D3B2A732A829F2C0026D4F9 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D3B2A622A829F260026D4F9 /* Auth0.plist */; };
+		2D3B2A742A829F2C0026D4F9 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A632A829F260026D4F9 /* MessagesView.swift */; };
+		2D3B2A752A829F2C0026D4F9 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A642A829F270026D4F9 /* SettingsView.swift */; };
+		2D3B2A772A829F2C0026D4F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A662A829F280026D4F9 /* ContentView.swift */; };
+		2D3B2A782A829F2C0026D4F9 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A672A829F280026D4F9 /* Modifiers.swift */; };
+		2D3B2A7A2A829F2C0026D4F9 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A692A829F290026D4F9 /* RewardsView.swift */; };
+		2D3B2A7C2A829F2C0026D4F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3B2A6B2A829F2A0026D4F9 /* Assets.xcassets */; };
+		2D3B2A7D2A829F2C0026D4F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A6C2A829F2B0026D4F9 /* Constants.swift */; };
+		2D3B2A7E2A829F2C0026D4F9 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A6D2A829F2B0026D4F9 /* FavoritesView.swift */; };
+		2D3B2A7F2A829F2C0026D4F9 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A6E2A829F2C0026D4F9 /* TimelineView.swift */; };
+		2D3B2A832A82A0800026D4F9 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3B2A822A82A0800026D4F9 /* Auth0 */; };
+		2D3B2A862A82A0B30026D4F9 /* TabBar in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3B2A852A82A0B30026D4F9 /* TabBar */; };
+		2D3B2A892A82A13C0026D4F9 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 2D3B2A882A82A13C0026D4F9 /* Alamofire */; };
+		2D3B2A8B2A82A1D60026D4F9 /* FollowerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A8A2A82A1D60026D4F9 /* FollowerViewModel.swift */; };
+		2D3B2A8D2A82A1D80026D4F9 /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A8C2A82A1D70026D4F9 /* PostViewModel.swift */; };
+		2D3B2A8F2A82A1DA0026D4F9 /* TimelineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A8E2A82A1DA0026D4F9 /* TimelineViewModel.swift */; };
+		2D3B2A912A82A1DD0026D4F9 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A902A82A1DD0026D4F9 /* UserViewModel.swift */; };
+		2D3B2A932A82A1ED0026D4F9 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A922A82A1ED0026D4F9 /* LandingPageView.swift */; };
+		2D3B2A952A82A1F10026D4F9 /* UpdateProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A942A82A1F10026D4F9 /* UpdateProfileView.swift */; };
+		2D3B2A992A82A1FE0026D4F9 /* ProfileBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A982A82A1FE0026D4F9 /* ProfileBottomView.swift */; };
+		2D3B2A9A2A82A1FE0026D4F9 /* ProfileTopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A962A82A1FE0026D4F9 /* ProfileTopView.swift */; };
+		2D3B2A9B2A82A1FE0026D4F9 /* AuthProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A972A82A1FE0026D4F9 /* AuthProfile.swift */; };
+		2D3B2AA02A82A20A0026D4F9 /* PostDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A9C2A82A2090026D4F9 /* PostDetailView.swift */; };
+		2D3B2AA12A82A20A0026D4F9 /* CreatePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A9E2A82A2090026D4F9 /* CreatePostView.swift */; };
+		2D3B2AA22A82A20A0026D4F9 /* PostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A9F2A82A20A0026D4F9 /* PostView.swift */; };
+		2D3B2AA32A82A20A0026D4F9 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A9D2A82A2090026D4F9 /* Post.swift */; };
+		2D3B2AA82A82A2A50026D4F9 /* FantasyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AA62A82A2A40026D4F9 /* FantasyView.swift */; };
+		2D3B2AA92A82A2A50026D4F9 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AA72A82A2A50026D4F9 /* SearchView.swift */; };
+		2D3B2AAA2A82A2A50026D4F9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AA52A82A2A40026D4F9 /* ProfileView.swift */; };
+		2D3B2AAB2A82A2A50026D4F9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AA42A82A2A40026D4F9 /* HomeView.swift */; };
+		2D3B2AAF2A82A2AF0026D4F9 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AAE2A82A2AF0026D4F9 /* Background.swift */; };
+		2D3B2AB02A82A2AF0026D4F9 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AAD2A82A2AF0026D4F9 /* UserListView.swift */; };
+		2D3B2AB12A82A2AF0026D4F9 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AAC2A82A2AF0026D4F9 /* ImagePicker.swift */; };
+		2D3B2AB32A82A2E10026D4F9 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AB22A82A2E10026D4F9 /* UserProfile.swift */; };
+		2D3B2AB52A82A32A0026D4F9 /* UserImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AB42A82A32A0026D4F9 /* UserImage.swift */; };
+		2D3B2AB72A82A3AE0026D4F9 /* UserListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2AB62A82A3AE0026D4F9 /* UserListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +69,49 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D34B3C22A82B1D000691D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2D3B2A322A829E660026D4F9 /* Apollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3B2A352A829E660026D4F9 /* ApolloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloApp.swift; sourceTree = "<group>"; };
-		2D3B2A372A829E660026D4F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2D3B2A392A829E680026D4F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3B2A3C2A829E680026D4F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2D3B2A422A829E690026D4F9 /* ApolloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3B2A462A829E690026D4F9 /* ApolloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloTests.swift; sourceTree = "<group>"; };
 		2D3B2A4C2A829E690026D4F9 /* ApolloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3B2A502A829E690026D4F9 /* ApolloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloUITests.swift; sourceTree = "<group>"; };
 		2D3B2A522A829E690026D4F9 /* ApolloUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D3B2A602A829F250026D4F9 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fonts; sourceTree = "<group>"; };
+		2D3B2A622A829F260026D4F9 /* Auth0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		2D3B2A632A829F260026D4F9 /* MessagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		2D3B2A642A829F270026D4F9 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2D3B2A662A829F280026D4F9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D3B2A672A829F280026D4F9 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		2D3B2A692A829F290026D4F9 /* RewardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		2D3B2A6B2A829F2A0026D4F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Apollo_Development/Apollo/Assets.xcassets; sourceTree = "<group>"; };
+		2D3B2A6C2A829F2B0026D4F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2D3B2A6D2A829F2B0026D4F9 /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		2D3B2A6E2A829F2C0026D4F9 /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		2D3B2A8A2A82A1D60026D4F9 /* FollowerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerViewModel.swift; sourceTree = "<group>"; };
+		2D3B2A8C2A82A1D70026D4F9 /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		2D3B2A8E2A82A1DA0026D4F9 /* TimelineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewModel.swift; sourceTree = "<group>"; };
+		2D3B2A902A82A1DD0026D4F9 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		2D3B2A922A82A1ED0026D4F9 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; };
+		2D3B2A942A82A1F10026D4F9 /* UpdateProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileView.swift; sourceTree = "<group>"; };
+		2D3B2A962A82A1FE0026D4F9 /* ProfileTopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTopView.swift; sourceTree = "<group>"; };
+		2D3B2A972A82A1FE0026D4F9 /* AuthProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthProfile.swift; sourceTree = "<group>"; };
+		2D3B2A982A82A1FE0026D4F9 /* ProfileBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileBottomView.swift; sourceTree = "<group>"; };
+		2D3B2A9C2A82A2090026D4F9 /* PostDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailView.swift; sourceTree = "<group>"; };
+		2D3B2A9D2A82A2090026D4F9 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2D3B2A9E2A82A2090026D4F9 /* CreatePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostView.swift; sourceTree = "<group>"; };
+		2D3B2A9F2A82A20A0026D4F9 /* PostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostView.swift; sourceTree = "<group>"; };
+		2D3B2AA42A82A2A40026D4F9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2D3B2AA52A82A2A40026D4F9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		2D3B2AA62A82A2A40026D4F9 /* FantasyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasyView.swift; sourceTree = "<group>"; };
+		2D3B2AA72A82A2A50026D4F9 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		2D3B2AAC2A82A2AF0026D4F9 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		2D3B2AAD2A82A2AF0026D4F9 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		2D3B2AAE2A82A2AF0026D4F9 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		2D3B2AB22A82A2E10026D4F9 /* UserProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		2D3B2AB42A82A32A0026D4F9 /* UserImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserImage.swift; sourceTree = "<group>"; };
+		2D3B2AB62A82A3AE0026D4F9 /* UserListItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +119,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3B2A892A82A13C0026D4F9 /* Alamofire in Frameworks */,
+				2D3B2A862A82A0B30026D4F9 /* TabBar in Frameworks */,
+				2D3B2A832A82A0800026D4F9 /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,9 +165,42 @@
 		2D3B2A342A829E660026D4F9 /* Apollo */ = {
 			isa = PBXGroup;
 			children = (
+				2D34B3C22A82B1D000691D88 /* Info.plist */,
 				2D3B2A352A829E660026D4F9 /* ApolloApp.swift */,
-				2D3B2A372A829E660026D4F9 /* ContentView.swift */,
-				2D3B2A392A829E680026D4F9 /* Assets.xcassets */,
+				2D3B2A6B2A829F2A0026D4F9 /* Assets.xcassets */,
+				2D3B2A622A829F260026D4F9 /* Auth0.plist */,
+				2D3B2A6C2A829F2B0026D4F9 /* Constants.swift */,
+				2D3B2A672A829F280026D4F9 /* Modifiers.swift */,
+				2D3B2AAE2A82A2AF0026D4F9 /* Background.swift */,
+				2D3B2A662A829F280026D4F9 /* ContentView.swift */,
+				2D3B2AA42A82A2A40026D4F9 /* HomeView.swift */,
+				2D3B2AA72A82A2A50026D4F9 /* SearchView.swift */,
+				2D3B2AA62A82A2A40026D4F9 /* FantasyView.swift */,
+				2D3B2AA52A82A2A40026D4F9 /* ProfileView.swift */,
+				2D3B2A6D2A829F2B0026D4F9 /* FavoritesView.swift */,
+				2D3B2A632A829F260026D4F9 /* MessagesView.swift */,
+				2D3B2AAD2A82A2AF0026D4F9 /* UserListView.swift */,
+				2D3B2AB62A82A3AE0026D4F9 /* UserListItemView.swift */,
+				2D3B2AB22A82A2E10026D4F9 /* UserProfile.swift */,
+				2D3B2A972A82A1FE0026D4F9 /* AuthProfile.swift */,
+				2D3B2A982A82A1FE0026D4F9 /* ProfileBottomView.swift */,
+				2D3B2A962A82A1FE0026D4F9 /* ProfileTopView.swift */,
+				2D3B2A9E2A82A2090026D4F9 /* CreatePostView.swift */,
+				2D3B2A9D2A82A2090026D4F9 /* Post.swift */,
+				2D3B2A9C2A82A2090026D4F9 /* PostDetailView.swift */,
+				2D3B2A9F2A82A20A0026D4F9 /* PostView.swift */,
+				2D3B2A692A829F290026D4F9 /* RewardsView.swift */,
+				2D3B2A642A829F270026D4F9 /* SettingsView.swift */,
+				2D3B2A6E2A829F2C0026D4F9 /* TimelineView.swift */,
+				2D3B2A922A82A1ED0026D4F9 /* LandingPageView.swift */,
+				2D3B2A942A82A1F10026D4F9 /* UpdateProfileView.swift */,
+				2D3B2A902A82A1DD0026D4F9 /* UserViewModel.swift */,
+				2D3B2A8C2A82A1D70026D4F9 /* PostViewModel.swift */,
+				2D3B2A8A2A82A1D60026D4F9 /* FollowerViewModel.swift */,
+				2D3B2A8E2A82A1DA0026D4F9 /* TimelineViewModel.swift */,
+				2D3B2AAC2A82A2AF0026D4F9 /* ImagePicker.swift */,
+				2D3B2AB42A82A32A0026D4F9 /* UserImage.swift */,
+				2D3B2A602A829F250026D4F9 /* Fonts */,
 				2D3B2A3B2A829E680026D4F9 /* Preview Content */,
 			);
 			path = Apollo;
@@ -143,6 +247,11 @@
 			dependencies = (
 			);
 			name = Apollo;
+			packageProductDependencies = (
+				2D3B2A822A82A0800026D4F9 /* Auth0 */,
+				2D3B2A852A82A0B30026D4F9 /* TabBar */,
+				2D3B2A882A82A13C0026D4F9 /* Alamofire */,
+			);
 			productName = Apollo;
 			productReference = 2D3B2A322A829E660026D4F9 /* Apollo.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +324,11 @@
 				Base,
 			);
 			mainGroup = 2D3B2A292A829E660026D4F9;
+			packageReferences = (
+				2D3B2A812A82A0800026D4F9 /* XCRemoteSwiftPackageReference "Auth0" */,
+				2D3B2A842A82A0B20026D4F9 /* XCRemoteSwiftPackageReference "TabBar" */,
+				2D3B2A872A82A13B0026D4F9 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = 2D3B2A332A829E660026D4F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,8 +345,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3B2A732A829F2C0026D4F9 /* Auth0.plist in Resources */,
+				2D3B2A7C2A829F2C0026D4F9 /* Assets.xcassets in Resources */,
 				2D3B2A3D2A829E680026D4F9 /* Preview Assets.xcassets in Resources */,
-				2D3B2A3A2A829E680026D4F9 /* Assets.xcassets in Resources */,
+				2D3B2A712A829F2C0026D4F9 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +373,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D3B2A382A829E660026D4F9 /* ContentView.swift in Sources */,
+				2D3B2AA12A82A20A0026D4F9 /* CreatePostView.swift in Sources */,
+				2D3B2AA32A82A20A0026D4F9 /* Post.swift in Sources */,
+				2D3B2AB32A82A2E10026D4F9 /* UserProfile.swift in Sources */,
+				2D3B2AA02A82A20A0026D4F9 /* PostDetailView.swift in Sources */,
+				2D3B2A752A829F2C0026D4F9 /* SettingsView.swift in Sources */,
+				2D3B2AA92A82A2A50026D4F9 /* SearchView.swift in Sources */,
+				2D3B2A8F2A82A1DA0026D4F9 /* TimelineViewModel.swift in Sources */,
+				2D3B2A742A829F2C0026D4F9 /* MessagesView.swift in Sources */,
+				2D3B2AB52A82A32A0026D4F9 /* UserImage.swift in Sources */,
+				2D3B2AB02A82A2AF0026D4F9 /* UserListView.swift in Sources */,
+				2D3B2AAA2A82A2A50026D4F9 /* ProfileView.swift in Sources */,
+				2D3B2A992A82A1FE0026D4F9 /* ProfileBottomView.swift in Sources */,
+				2D3B2A772A829F2C0026D4F9 /* ContentView.swift in Sources */,
+				2D3B2AA22A82A20A0026D4F9 /* PostView.swift in Sources */,
 				2D3B2A362A829E660026D4F9 /* ApolloApp.swift in Sources */,
+				2D3B2A8B2A82A1D60026D4F9 /* FollowerViewModel.swift in Sources */,
+				2D3B2A9B2A82A1FE0026D4F9 /* AuthProfile.swift in Sources */,
+				2D3B2A7E2A829F2C0026D4F9 /* FavoritesView.swift in Sources */,
+				2D3B2AAB2A82A2A50026D4F9 /* HomeView.swift in Sources */,
+				2D3B2AB12A82A2AF0026D4F9 /* ImagePicker.swift in Sources */,
+				2D3B2A7D2A829F2C0026D4F9 /* Constants.swift in Sources */,
+				2D3B2AA82A82A2A50026D4F9 /* FantasyView.swift in Sources */,
+				2D3B2AB72A82A3AE0026D4F9 /* UserListItemView.swift in Sources */,
+				2D3B2A8D2A82A1D80026D4F9 /* PostViewModel.swift in Sources */,
+				2D3B2A912A82A1DD0026D4F9 /* UserViewModel.swift in Sources */,
+				2D3B2A782A829F2C0026D4F9 /* Modifiers.swift in Sources */,
+				2D3B2A952A82A1F10026D4F9 /* UpdateProfileView.swift in Sources */,
+				2D3B2A932A82A1ED0026D4F9 /* LandingPageView.swift in Sources */,
+				2D3B2AAF2A82A2AF0026D4F9 /* Background.swift in Sources */,
+				2D3B2A7F2A829F2C0026D4F9 /* TimelineView.swift in Sources */,
+				2D3B2A7A2A829F2C0026D4F9 /* RewardsView.swift in Sources */,
+				2D3B2A9A2A82A1FE0026D4F9 /* ProfileTopView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,7 +566,8 @@
 				DEVELOPMENT_TEAM = Q4DTTM7PT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Apollo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -449,7 +596,8 @@
 				DEVELOPMENT_TEAM = Q4DTTM7PT7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = Apollo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -583,6 +731,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2D3B2A812A82A0800026D4F9 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2D3B2A842A82A0B20026D4F9 /* XCRemoteSwiftPackageReference "TabBar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onl1ner/TabBar.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		2D3B2A872A82A13B0026D4F9 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2D3B2A822A82A0800026D4F9 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3B2A812A82A0800026D4F9 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+		2D3B2A852A82A0B30026D4F9 /* TabBar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3B2A842A82A0B20026D4F9 /* XCRemoteSwiftPackageReference "TabBar" */;
+			productName = TabBar;
+		};
+		2D3B2A882A82A13C0026D4F9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2D3B2A872A82A13B0026D4F9 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2D3B2A2A2A829E660026D4F9 /* Project object */;
 }
