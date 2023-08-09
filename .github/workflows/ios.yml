@@ -27,8 +27,8 @@ jobs:
           file_to_build="Apollo.xcodeproj"
           filetype_parameter="project"
           
-          # Ensure the file exists, just as an extra check
-          if [[ ! -f $file_to_build ]]; then
+          # Ensure the directory exists, just as an extra check
+          if [[ ! -d $file_to_build ]]; then
             echo "$file_to_build not found!"
             exit 1
           fi
@@ -40,8 +40,8 @@ jobs:
           file_to_build="Apollo.xcodeproj"
           filetype_parameter="project"
 
-          # Ensure the file exists, just as an extra check
-          if [[ ! -f $file_to_build ]]; then
+          # Ensure the directory exists, just as an extra check
+          if [[ ! -d $file_to_build ]]; then
             echo "$file_to_build not found!"
             exit 1
           fi
