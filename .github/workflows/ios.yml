@@ -24,14 +24,16 @@ jobs:
 
       - name: Build
         run: |
-          # Checking for .xcworkspace or .xcodeproj
-          if [[ -f *.xcworkspace ]]; then 
-            filetype_parameter="workspace" 
-            file_to_build=$(ls *.xcworkspace)
-          elif [[ -f *.xcodeproj ]]; then
-            filetype_parameter="project" 
-            file_to_build=$(ls *.xcodeproj)
-          else
+          # Checking for .xcworkspace or .xcodeproj using find command
+          file_to_build=$(find . -name "*.xcworkspace" -maxdepth 1)
+          filetype_parameter="workspace"
+
+          if [[ ! -f $file_to_build ]]; then
+            file_to_build=$(find . -name "*.xcodeproj" -maxdepth 1)
+            filetype_parameter="project"
+          fi
+
+          if [[ ! -f $file_to_build ]]; then
             echo "Neither .xcworkspace nor .xcodeproj found!"
             exit 1
           fi
@@ -40,14 +42,16 @@ jobs:
 
       - name: Test
         run: |
-          # Re-using the detection mechanism for .xcworkspace or .xcodeproj
-          if [[ -f *.xcworkspace ]]; then 
-            filetype_parameter="workspace" 
-            file_to_build=$(ls *.xcworkspace)
-          elif [[ -f *.xcodeproj ]]; then
-            filetype_parameter="project" 
-            file_to_build=$(ls *.xcodeproj)
-          else
+          # Re-using the detection mechanism for .xcworkspace or .xcodeproj using find command
+          file_to_build=$(find . -name "*.xcworkspace" -maxdepth 1)
+          filetype_parameter="workspace"
+
+          if [[ ! -f $file_to_build ]]; then
+            file_to_build=$(find . -name "*.xcodeproj" -maxdepth 1)
+            filetype_parameter="project"
+          fi
+
+          if [[ ! -f $file_to_build ]]; then
             echo "Neither .xcworkspace nor .xcodeproj found!"
             exit 1
           fi
