@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D34B3C42A83E9D600691D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D34B3C32A83E9D600691D88 /* Assets.xcassets */; };
 		2D3B2A362A829E660026D4F9 /* ApolloApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A352A829E660026D4F9 /* ApolloApp.swift */; };
 		2D3B2A3D2A829E680026D4F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3B2A3C2A829E680026D4F9 /* Preview Assets.xcassets */; };
 		2D3B2A472A829E690026D4F9 /* ApolloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A462A829E690026D4F9 /* ApolloTests.swift */; };
@@ -19,7 +20,6 @@
 		2D3B2A772A829F2C0026D4F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A662A829F280026D4F9 /* ContentView.swift */; };
 		2D3B2A782A829F2C0026D4F9 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A672A829F280026D4F9 /* Modifiers.swift */; };
 		2D3B2A7A2A829F2C0026D4F9 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A692A829F290026D4F9 /* RewardsView.swift */; };
-		2D3B2A7C2A829F2C0026D4F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D3B2A6B2A829F2A0026D4F9 /* Assets.xcassets */; };
 		2D3B2A7D2A829F2C0026D4F9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A6C2A829F2B0026D4F9 /* Constants.swift */; };
 		2D3B2A7E2A829F2C0026D4F9 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A6D2A829F2B0026D4F9 /* FavoritesView.swift */; };
 		2D3B2A7F2A829F2C0026D4F9 /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3B2A6E2A829F2C0026D4F9 /* TimelineView.swift */; };
@@ -70,6 +70,7 @@
 
 /* Begin PBXFileReference section */
 		2D34B3C22A82B1D000691D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		2D34B3C32A83E9D600691D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2D3B2A322A829E660026D4F9 /* Apollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3B2A352A829E660026D4F9 /* ApolloApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloApp.swift; sourceTree = "<group>"; };
 		2D3B2A3C2A829E680026D4F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -85,7 +86,6 @@
 		2D3B2A662A829F280026D4F9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2D3B2A672A829F280026D4F9 /* Modifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 		2D3B2A692A829F290026D4F9 /* RewardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
-		2D3B2A6B2A829F2A0026D4F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Apollo_Development/Apollo/Assets.xcassets; sourceTree = "<group>"; };
 		2D3B2A6C2A829F2B0026D4F9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2D3B2A6D2A829F2B0026D4F9 /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
 		2D3B2A6E2A829F2C0026D4F9 /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
@@ -167,7 +167,6 @@
 			children = (
 				2D34B3C22A82B1D000691D88 /* Info.plist */,
 				2D3B2A352A829E660026D4F9 /* ApolloApp.swift */,
-				2D3B2A6B2A829F2A0026D4F9 /* Assets.xcassets */,
 				2D3B2A622A829F260026D4F9 /* Auth0.plist */,
 				2D3B2A6C2A829F2B0026D4F9 /* Constants.swift */,
 				2D3B2A672A829F280026D4F9 /* Modifiers.swift */,
@@ -200,6 +199,7 @@
 				2D3B2A8E2A82A1DA0026D4F9 /* TimelineViewModel.swift */,
 				2D3B2AAC2A82A2AF0026D4F9 /* ImagePicker.swift */,
 				2D3B2AB42A82A32A0026D4F9 /* UserImage.swift */,
+				2D34B3C32A83E9D600691D88 /* Assets.xcassets */,
 				2D3B2A602A829F250026D4F9 /* Fonts */,
 				2D3B2A3B2A829E680026D4F9 /* Preview Content */,
 			);
@@ -346,8 +346,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D3B2A732A829F2C0026D4F9 /* Auth0.plist in Resources */,
-				2D3B2A7C2A829F2C0026D4F9 /* Assets.xcassets in Resources */,
 				2D3B2A3D2A829E680026D4F9 /* Preview Assets.xcassets in Resources */,
+				2D34B3C42A83E9D600691D88 /* Assets.xcassets in Resources */,
 				2D3B2A712A829F2C0026D4F9 /* Fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
